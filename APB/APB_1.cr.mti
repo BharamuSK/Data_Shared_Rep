@@ -1,0 +1,8 @@
+{C:/Users/admin/Desktop/VLSI Projects/APB/apb_tb.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/admin/Desktop/VLSI Projects/APB/apb_tb.sv}
+QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+-- Compiling module apb_tb
+
+Top level modules:
+	apb_tb
+
+} {} {}}

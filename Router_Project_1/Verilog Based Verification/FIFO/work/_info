@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/17.1
+vR_fifo
+Z0 !s110 1664187259
+!i10b 1
+!s100 ;6_Bg319LQ?lVd40;PI:Z2
+Id:mn72eEM37BB5YS?cm281
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dG:/Bharamu/HDL/Project/Router_Project_1/FIFO
+w1664187069
+8G:/Bharamu/HDL/Project/Router_Project_1/FIFO/R_fifo.v
+FG:/Bharamu/HDL/Project/Router_Project_1/FIFO/R_fifo.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1664187259.000000
+!s107 G:/Bharamu/HDL/Project/Router_Project_1/FIFO/R_fifo.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/Bharamu/HDL/Project/Router_Project_1/FIFO/R_fifo.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@r_fifo
+vR_fifo_tb
+R0
+!i10b 1
+!s100 g9fLm8WXNCnj]3NTZSVcE2
+IQ?`^K]CSBDNXiY2HPY`o=2
+R1
+R2
+w1664187162
+8G:/Bharamu/HDL/Project/Router_Project_1/FIFO/R_fifo_tb.v
+FG:/Bharamu/HDL/Project/Router_Project_1/FIFO/R_fifo_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 G:/Bharamu/HDL/Project/Router_Project_1/FIFO/R_fifo_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/Bharamu/HDL/Project/Router_Project_1/FIFO/R_fifo_tb.v|
+!i113 1
+R5
+R6
+n@r_fifo_tb

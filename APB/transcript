@@ -1,0 +1,6 @@
+# vsim -novopt apb_tb 
+# Start time: 10:23:42 on May 27,2023
+# Loading sv_std.std
+# Loading work.apb_tb
+# End time: 10:23:53 on May 27,2023, Elapsed time: 0:00:11
+# Errors: 0, Warnings: 0

@@ -1,0 +1,215 @@
+// `include "uvm_macros.svh"
+// import uvm_pkg::*;
+
+// interface apb_intf(input bit PCLK);
+
+//     logic PRESETn;
+//     logic [31:0] PADDR;
+//     logic PSELx;
+//     logic PENABLE;
+//     logic PWRITE;
+
+//     logic PWDATA;
+//     logic PREADY;
+
+//     logic PRDATA;
+//     logic PSLVERR;
+
+// endinterface
+
+
+// class apb_tras extends uvm_sequence_item;
+    
+//     `uvm_object_utils(apb_tras);
+    
+//     rand bit[31:0] PADDR;
+//          bit PSELx;
+//          bit PENABLE;
+//     randc bit PWRITE;
+    
+//     rand bit[31:0] PWDATA;
+//          bit PREADY;
+
+//          bit [31:0]PRDATA;
+
+//          bit PSLVERR;  //Tied to if We are verifying APB Memory only 
+
+
+//         constraint PWRITE_C { PWRITE dist {1:=1,0:=1};}
+
+//         function new(input string name = "apb_tras");
+//             super.new(name);
+//         endfunction
+
+// endclass
+
+// //////////////// Sequence ////////////////////
+// class seq extends uvm_sequence #(apb_tras);
+
+//     `uvm_object_utils(seq)
+   
+//     apb_tras apb;
+
+//     function new(input string name="seq");
+//         super.new(name);
+//     endfunction
+
+//     virtual task body();
+//                 `uvm_info("SEQ","SEQ Started",UVM_NONE);
+//                 apb=apb_tras::type_id::create("apb");
+//                 start_item(apb);
+//                 assert(apb.randomize());
+//                 `uvm_info("SEQ",$sformatf("PADDR=%0d\t PSELx=%0d\t PSLVERR=%0b\t PENABLE=%0b\t PWRITE=%0b\t PWDATA=%0d\t PREADY=%0b\t PRDATA=%0d",apb.PADDR,apb.PSELx,apb.PSLVERR,apb.PENABLE,apb.PWRITE,apb.PWDATA,apb.PREADY,apb.PRDATA),UVM_NONE);
+//                 finish_item(apb);
+
+//             endtask
+
+// endclass
+
+
+// //////////////// Sequencer ////////////////////
+// class seqr extends uvm_sequencer #(apb_tras);
+
+//     `uvm_component_utils(seqr)
+
+//     function new(input string name="seqr", uvm_component parent= null);
+//         super.new(name,parent);
+//     endfunction
+
+// endclass
+
+// //////////////// Driver ////////////////////
+
+
+// class driver extends uvm_driver #(apb_tras);
+
+//     `uvm_component_utils(driver)
+
+//     apb_tras apb;
+
+//     function new(input string name="driver", uvm_component parent = null);
+//         super.new(name,parent);
+//         // a=apb_tras::type_id::create("a");
+//     endfunction
+
+//     virtual function void build_phase(uvm_phase phase);
+//                 super.build_phase(phase);
+//                 apb=apb_tras::type_id::create("apb");
+//             endfunction
+
+//     virtual task run_phase(uvm_phase phase);
+//                 begin
+//                     seq_item_port.get_next_item(apb);
+//                     `uvm_info("DRV",$sformatf("PADDR=%0d\t PSELx=%0d\t PSLVERR=%0b\t PENABLE=%0b\t PWRITE=%0b\t PWDATA=%0d\t PREADY=%0b\t PRDATA=%0d",apb.PADDR,apb.PSELx,apb.PSLVERR,apb.PENABLE,apb.PWRITE,apb.PWDATA,apb.PREADY,apb.PRDATA),UVM_NONE);
+//                     seq_item_port.item_done();
+//                 end
+//             endtask
+
+// endclass
+
+
+// //////////////  Monitor ///////////////////
+// class mon extends uvm_monitor;
+
+//     `uvm_component_utils(mon)
+
+//     function new(input string name="mon", uvm_component parent);
+//         super.new(name,parent);
+//     endfunction
+
+// endclass
+
+// ////////////// agent   ////////////////////
+// class agent extends uvm_agent;
+
+//     `uvm_component_utils(agent)
+
+//     seqr sr;
+//     driver dr;
+//     mon m;
+
+//     function new(input string name="agent", uvm_component parent = null);
+//         super.new(name,parent);
+//     endfunction
+
+//     virtual function void build_phase(uvm_phase phase);
+//                 super.build_phase(phase);
+//                 sr=seqr::type_id::create("sr",this);
+//                 dr=driver::type_id::create("dr",this);
+//                 m=mon::type_id::create("m",this);
+                
+//             endfunction
+
+//     virtual function void connect_phase(uvm_phase phase);
+//                 super.connect_phase(phase);
+//                 dr.seq_item_port.connect(sr.seq_item_export);
+//             endfunction
+
+// endclass
+
+// ////////////// ENV   ////////////////////
+// class env extends uvm_env;
+//     `uvm_component_utils(env)
+    
+//     function new(input string inst = "ENV", uvm_component c = null);
+//         super.new(inst,c);
+//     endfunction
+ 
+//     agent a;
+    
+//     virtual function void build_phase(uvm_phase phase);
+//                 super.build_phase(phase);
+//                 a = agent::type_id::create("AGENT",this);
+//             endfunction
+ 
+// endclass
+
+// ////////////// TEST   ////////////////////
+// class test extends uvm_test;
+//     `uvm_component_utils(test)
+ 
+//     function new(input string inst = "TEST", uvm_component c= null);
+//         super.new(inst,c);
+//     endfunction
+    
+//     seq s1;
+
+//     env e;
+ 
+//     virtual function void build_phase(uvm_phase phase);
+//                 super.build_phase(phase);
+//                 e = env::type_id::create("ENV",this);
+//                 s1 = seq::type_id::create("seq");
+//             endfunction
+ 
+//     virtual task run_phase(uvm_phase phase);
+ 
+//                 phase.raise_objection(this); 
+//                     s1.start(e.a.sr);      //normal 
+//                 phase.drop_objection(this);
+//             endtask
+
+//     virtual function void end_of_elaboration_phase(uvm_phase phase);
+//                 super.end_of_elaboration_phase(phase);
+//                 uvm_top.print_topology();
+//             endfunction
+// endclass
+
+
+module apb_tb();
+
+    bit PCLK;
+    // apb_intf intf(PCLK);
+    initial
+    begin
+        PCLK = 1'b0;
+        forever #5 PCLK = ~ PCLK;
+    end
+
+    initial
+    begin
+        // run_test("test");
+        #200 $finish();
+    end
+
+endmodule

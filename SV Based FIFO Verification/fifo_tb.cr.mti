@@ -1,0 +1,20 @@
+E:/SV_Practice/FIFO/fifo.v {1 {vlog -work work -vopt -stats=none E:/SV_Practice/FIFO/fifo.v
+QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+-- Compiling module fifo
+
+Top level modules:
+	fifo
+
+} {} {}} E:/SV_Practice/FIFO/fifo_tb.sv {2 {vlog -work work -vopt -sv -stats=none E:/SV_Practice/FIFO/fifo_tb.sv
+QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+-- Compiling interface fi_if
+-- Compiling package fifo_tb_sv_unit
+** Warning: E:/SV_Practice/FIFO/fifo_tb.sv(66): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+
+-- Compiling interface fi_if
+-- Compiling module fifo_tb
+
+Top level modules:
+	fifo_tb
+
+} {} {}}

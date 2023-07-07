@@ -1,0 +1,15 @@
+{D:/VLSI LAB/Router_Project_1/FSM/fsm.v} {1 {vlog -work work -stats=none {D:/VLSI LAB/Router_Project_1/FSM/fsm.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module fsm
+
+Top level modules:
+	fsm
+
+} {} {}} {D:/VLSI LAB/Router_Project_1/FSM/fsm_tb.v} {1 {vlog -work work -stats=none {D:/VLSI LAB/Router_Project_1/FSM/fsm_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module fsm_tb
+
+Top level modules:
+	fsm_tb
+
+} {} {}}

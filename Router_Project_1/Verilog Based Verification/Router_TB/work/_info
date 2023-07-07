@@ -1,0 +1,137 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/17.1
+vfsm
+Z0 !s110 1664187991
+!i10b 1
+!s100 7Y:LQbU>[:>R6N6WXKZni0
+IOW2`VbL9i=PbIQebgc6e>0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dG:/Bharamu/HDL/Project/Router_Project_1/Router_TB
+w1664024484
+8G:/Bharamu/HDL/Project/Router_Project_1/Router_TB/fsm.v
+FG:/Bharamu/HDL/Project/Router_Project_1/Router_TB/fsm.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1664187991.000000
+!s107 G:/Bharamu/HDL/Project/Router_Project_1/Router_TB/fsm.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/Bharamu/HDL/Project/Router_Project_1/Router_TB/fsm.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vR_fifo
+R0
+!i10b 1
+!s100 4?B:N13TFQR]RmoS[JacR3
+I0Xmh8KnRT7^HD3=V8S@o?2
+R1
+R2
+w1664185610
+8G:/Bharamu/HDL/Project/Router_Project_1/Router_TB/R_fifo.v
+FG:/Bharamu/HDL/Project/Router_Project_1/Router_TB/R_fifo.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 G:/Bharamu/HDL/Project/Router_Project_1/Router_TB/R_fifo.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/Bharamu/HDL/Project/Router_Project_1/Router_TB/R_fifo.v|
+!i113 1
+R5
+R6
+n@r_fifo
+vregister
+R0
+!i10b 1
+!s100 @fFjYJD<GZofomGBJWh^B2
+Im_eYI^fA]A4Qc;mLkl2?G3
+R1
+R2
+w1664100492
+8G:/Bharamu/HDL/Project/Router_Project_1/Router_TB/register.v
+FG:/Bharamu/HDL/Project/Router_Project_1/Router_TB/register.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 G:/Bharamu/HDL/Project/Router_Project_1/Router_TB/register.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/Bharamu/HDL/Project/Router_Project_1/Router_TB/register.v|
+!i113 1
+R5
+R6
+vrouter
+R0
+!i10b 1
+!s100 @BWBh9KTSag<<>jU:A6`I0
+IH@RZYdSIG;_h5Kh:olfQN3
+R1
+R2
+w1664113894
+8G:/Bharamu/HDL/Project/Router_Project_1/Router_TB/router.v
+FG:/Bharamu/HDL/Project/Router_Project_1/Router_TB/router.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 G:/Bharamu/HDL/Project/Router_Project_1/Router_TB/router.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/Bharamu/HDL/Project/Router_Project_1/Router_TB/router.v|
+!i113 1
+R5
+R6
+vrouter_tb
+R0
+!i10b 1
+!s100 g4lJakMblO1emoQcUL96Y0
+I[Pj;jn3gab_cF62l^<:D<2
+R1
+R2
+w1664187984
+8G:\Bharamu\HDL\Project\Router_Project_1\Router_TB\router_tb.v
+FG:\Bharamu\HDL\Project\Router_Project_1\Router_TB\router_tb.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 G:\Bharamu\HDL\Project\Router_Project_1\Router_TB\router_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:\Bharamu\HDL\Project\Router_Project_1\Router_TB\router_tb.v|
+!i113 1
+R5
+R6
+vsynchronizer
+R0
+!i10b 1
+!s100 [F3H]98AXH7lGU7;<abF41
+I?<;oQ;_F09Z9_c=8NlZi83
+R1
+R2
+w1664095264
+8G:/Bharamu/HDL/Project/Router_Project_1/Router_TB/synchronizer.v
+FG:/Bharamu/HDL/Project/Router_Project_1/Router_TB/synchronizer.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 G:/Bharamu/HDL/Project/Router_Project_1/Router_TB/synchronizer.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/Bharamu/HDL/Project/Router_Project_1/Router_TB/synchronizer.v|
+!i113 1
+R5
+R6

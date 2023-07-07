@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/17.1
+vsynchronizer
+Z0 !s110 1664032177
+!i10b 1
+!s100 S?I>[4z]XVIQRKMC3oFld0
+IcHn0M6N[b0F[9=8[N]Ud72
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/VLSI LAB/Router_Project_1/SYNCHRONIZER
+w1662576292
+8D:/VLSI LAB/Router_Project_1/SYNCHRONIZER/synchronizer.v
+FD:/VLSI LAB/Router_Project_1/SYNCHRONIZER/synchronizer.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1664032177.000000
+!s107 D:/VLSI LAB/Router_Project_1/SYNCHRONIZER/synchronizer.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/VLSI LAB/Router_Project_1/SYNCHRONIZER/synchronizer.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vsynchronizer_tb
+R0
+!i10b 1
+!s100 nA2FSPCOmlI3T:naaI:Tk1
+I=101LYC:@>UCPG2XFFh_40
+R1
+R2
+w1664032166
+8D:/VLSI LAB/Router_Project_1/SYNCHRONIZER/synchronizer_tb .v
+FD:/VLSI LAB/Router_Project_1/SYNCHRONIZER/synchronizer_tb .v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/VLSI LAB/Router_Project_1/SYNCHRONIZER/synchronizer_tb .v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/VLSI LAB/Router_Project_1/SYNCHRONIZER/synchronizer_tb .v|
+!i113 1
+R5
+R6

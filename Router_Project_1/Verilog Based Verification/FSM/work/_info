@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/17.1
+vfsm
+!s110 1664104415
+!i10b 1
+!s100 7Y:LQbU>[:>R6N6WXKZni0
+IY:`BMQ5F_bQaJU5cCSScL2
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dD:/VLSI LAB/Router_Project_1/FSM
+w1664024483
+8D:/VLSI LAB/Router_Project_1/FSM/fsm.v
+FD:/VLSI LAB/Router_Project_1/FSM/fsm.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1664104415.000000
+!s107 D:/VLSI LAB/Router_Project_1/FSM/fsm.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/VLSI LAB/Router_Project_1/FSM/fsm.v|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+vfsm_tb
+!s110 1664104416
+!i10b 1
+!s100 @cgW=@edcW0oAkRTIfWd91
+IN1G8d]ITUzd`fRm`jOX0i3
+R0
+R1
+w1664024326
+8D:/VLSI LAB/Router_Project_1/FSM/fsm_tb.v
+FD:/VLSI LAB/Router_Project_1/FSM/fsm_tb.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1664104416.000000
+!s107 D:/VLSI LAB/Router_Project_1/FSM/fsm_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/VLSI LAB/Router_Project_1/FSM/fsm_tb.v|
+!i113 1
+R3
+R4

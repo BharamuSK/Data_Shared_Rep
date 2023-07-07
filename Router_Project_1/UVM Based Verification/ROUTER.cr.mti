@@ -1,0 +1,68 @@
+{D:/UVM/Router Final Project/rtl/router_reg.v} {1 {vlog -work work -vopt -stats=none {D:/UVM/Router Final Project/rtl/router_reg.v}
+QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+-- Compiling module router_reg
+
+Top level modules:
+	router_reg
+
+} {} {}} {D:/UVM/Router Final Project/rtl/router_if.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/UVM/Router Final Project/rtl/router_if.sv}
+QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+-- Compiling interface router_if
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/UVM/Router Final Project/wr_agt_top/router_wr_agent_config.sv} {0 {vlog -work work -vopt -sv -stats=none {D:/UVM/Router Final Project/wr_agt_top/router_wr_agent_config.sv}
+QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+** Error: (vlog-13069) D:/UVM/Router Final Project/wr_agt_top/router_wr_agent_config.sv(1): near "uvm_object": syntax error, unexpected IDENTIFIER.
+
+** Error: D:/UVM/Router Final Project/wr_agt_top/router_wr_agent_config.sv(1): Error in class extension specification.
+
+} {3.0 4.0 5.0 6.0} {}} {D:/UVM/Router Final Project/rtl/router_top.v} {1 {vlog -work work -vopt -stats=none {D:/UVM/Router Final Project/rtl/router_top.v}
+QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+-- Compiling module router_top
+
+Top level modules:
+	router_top
+
+} {} {}} {D:/UVM/Router Final Project/rtl/router_fsm.v} {1 {vlog -work work -vopt -stats=none {D:/UVM/Router Final Project/rtl/router_fsm.v}
+QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+-- Compiling module router_fsm
+
+Top level modules:
+	router_fsm
+
+} {} {}} {D:/UVM/Router Final Project/tb/router_top_tb.sv} {0 {vlog -work work -vopt -sv -stats=none {D:/UVM/Router Final Project/tb/router_top_tb.sv}
+QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+-- Compiling module top
+** Error: D:/UVM/Router Final Project/tb/router_top_tb.sv(5): (vlog-13006) Could not find the package (router_pkg).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+
+} {4.0 5.0} {}} {D:/UVM/Router Final Project/wr_agt_top/write_xtn.sv} {0 {vlog -work work -vopt -sv -stats=none {D:/UVM/Router Final Project/wr_agt_top/write_xtn.sv}
+QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+** Error: (vlog-13069) D:/UVM/Router Final Project/wr_agt_top/write_xtn.sv(1): near "uvm_sequence_item": syntax error, unexpected IDENTIFIER.
+
+** Error: D:/UVM/Router Final Project/wr_agt_top/write_xtn.sv(1): Error in class extension specification.
+
+} {3.0 4.0 5.0 6.0} {}} {D:/UVM/Router Final Project/rtl/router_fifo.v} {1 {vlog -work work -vopt -stats=none {D:/UVM/Router Final Project/rtl/router_fifo.v}
+QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+-- Compiling module router_fifo
+
+Top level modules:
+	router_fifo
+
+} {} {}} {D:/UVM/Router Final Project/rd_agt_top/router_rd_agent_config.sv} {0 {vlog -work work -vopt -sv -stats=none {D:/UVM/Router Final Project/rd_agt_top/router_rd_agent_config.sv}
+QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+** Error: (vlog-13069) D:/UVM/Router Final Project/rd_agt_top/router_rd_agent_config.sv(1): near "uvm_object": syntax error, unexpected IDENTIFIER.
+
+** Error: D:/UVM/Router Final Project/rd_agt_top/router_rd_agent_config.sv(1): Error in class extension specification.
+
+} {3.0 4.0 5.0 6.0} {}} {D:/UVM/Router Final Project/rtl/router_sync.v} {1 {vlog -work work -vopt -stats=none {D:/UVM/Router Final Project/rtl/router_sync.v}
+QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+-- Compiling module router_sync
+
+Top level modules:
+	router_sync
+
+} {} {}}

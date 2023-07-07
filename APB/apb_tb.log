@@ -1,0 +1,58 @@
+# End time: 22:37:27 on May 26,2023, Elapsed time: 0:05:41
+# Errors: 2, Warnings: 1
+# vsim work.apb_tb -l apb_tb.log 
+# Start time: 22:37:27 on May 26,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# 
+# Loading sv_std.std
+# Loading mtiUvm.uvm_pkg
+# Loading work.axi_top_svh_unit(fast)
+# Loading work.apb_tb(fast)
+# Loading mtiUvm.questa_uvm_pkg(fast)
+# Loading C:/questasim64_10.4e/uvm-1.1d\win64\uvm_dpi.dll
+# ** Error: (vish-4014) No objects found matching '/apb_tb/*'.
+# Error in macro ./run.do line 4
+# (vish-4014) No objects found matching '/apb_tb/*'.
+#     while executing
+# "add wave -position insertpoint sim:/apb_tb/*"
+add wave -position insertpoint sim:/apb_tb/#INITIAL#34/*
+# (vish-4014) No objects found matching '/apb_tb/#INITIAL#34/*'.
+add wave -position insertpoint sim:/apb_tb/#INITIAL#41/*
+# (vish-4014) No objects found matching '/apb_tb/#INITIAL#41/*'.
+add wave -position insertpoint sim:/axi_top_svh_unit/*
+# (vish-4014) No objects found matching '/axi_top_svh_unit/*'.
+add wave -position insertpoint sim:/apb_tb/*
+# (vish-4014) No objects found matching '/apb_tb/*'.
+quit -sim
+# End time: 22:38:41 on May 26,2023, Elapsed time: 0:01:14
+# Errors: 7, Warnings: 0
+# Compile of axi_top.svh was successful with warnings.
+do run.do
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# ** Note: (vlog-2286) Using implicit +incdir+C:/questasim64_10.4e/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# 
+# ** Warning: C:/Users/admin/Desktop/VLSI Projects/APB/axi_top.svh(4): (vlog-2283) Extra semicolon in $unit (global) scope.
+# 
+# -- Compiling package axi_top_svh_unit
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# -- Compiling module apb_tb
+# 
+# Top level modules:
+# 	apb_tb
+# vsim work.apb_tb -l apb_tb.log 
+# Start time: 22:38:56 on May 26,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# 
+# Loading sv_std.std
+# Loading mtiUvm.uvm_pkg
+# Loading work.axi_top_svh_unit(fast)
+# Loading work.apb_tb(fast)
+# Loading mtiUvm.questa_uvm_pkg(fast)
+# Loading C:/questasim64_10.4e/uvm-1.1d\win64\uvm_dpi.dll
+# ** Error: (vish-4014) No objects found matching '/apb_tb/*'.
+# Error in macro ./run.do line 4
+# (vish-4014) No objects found matching '/apb_tb/*'.
+#     while executing
+# "add wave -position insertpoint sim:/apb_tb/*"
+# End time: 07:03:18 on May 27,2023, Elapsed time: 8:24:22
+# Errors: 3, Warnings: 0

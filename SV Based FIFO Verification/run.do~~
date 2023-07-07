@@ -1,0 +1,4 @@
+vlog -work work -vopt -sv -stats=none C:\Users\admin\Desktop\VLSI Projects\SV Based FIFO Verification\fifo_tb.sv
+vsim -voptargs=+acc work.fifo_tb -sv_seed random -l tb.log
+add wave -position insertpoint sim:/fifo_tb/f_if/*
+run -all

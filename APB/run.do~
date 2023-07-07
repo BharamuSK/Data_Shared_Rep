@@ -1,0 +1,5 @@
+vlog -work work -vopt -sv -stats=none {C:/Users/admin/Desktop/VLSI Projects/APB/axi_top.svh} 
+//vsim -voptargs=+acc work.axi_tb_top -l axi_output.log
+//add wave -position insertpoint sim:/axi_tb_top/intf/*
+//add wave -position insertpoint sim:/axi_tb_top/*
+run -all
