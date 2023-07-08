@@ -1,0 +1,115 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/17.1
+vrouter_fifo
+Z0 !s110 1679550652
+!i10b 1
+!s100 IEc_<L4U^iY2B4NmCK4Xb0
+IeiU^G6nJSGI=klKSITIQI0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/UVM/Router/rtl
+Z3 w1546578256
+8D:/UVM/Router/rtl/router_fifo.v
+FD:/UVM/Router/rtl/router_fifo.v
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1679550652.000000
+!s107 D:/UVM/Router/rtl/router_fifo.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/UVM/Router/rtl/router_fifo.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vrouter_fsm
+R0
+!i10b 1
+!s100 HmFNZFC9QX]^<hFM;<4XD1
+IS3<MH<TR8Vn^<jJm5IeP=1
+R1
+R2
+R3
+8D:/UVM/Router/rtl/router_fsm.v
+FD:/UVM/Router/rtl/router_fsm.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/UVM/Router/rtl/router_fsm.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/UVM/Router/rtl/router_fsm.v|
+!i113 1
+R6
+R7
+vrouter_reg
+R0
+!i10b 1
+!s100 S_?JGA6zY;Ud?ZC_hD^=50
+I:AbdSgz^]nR<1P2Z_ZJAC3
+R1
+R2
+R3
+8D:/UVM/Router/rtl/router_reg.v
+FD:/UVM/Router/rtl/router_reg.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/UVM/Router/rtl/router_reg.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/UVM/Router/rtl/router_reg.v|
+!i113 1
+R6
+R7
+vrouter_sync
+R0
+!i10b 1
+!s100 C2AI54SmW2^PdUiZi<16a0
+I[8SM;`]DkPh0b1KMl62IL0
+R1
+R2
+R3
+8D:/UVM/Router/rtl/router_sync.v
+FD:/UVM/Router/rtl/router_sync.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/UVM/Router/rtl/router_sync.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/UVM/Router/rtl/router_sync.v|
+!i113 1
+R6
+R7
+vrouter_top
+R0
+!i10b 1
+!s100 F08QQQ@CDeeKncKOPN]>J2
+I>Bl?5lX_5ZPLgnHU9d5RY0
+R1
+R2
+R3
+8D:/UVM/Router/rtl/router_top.v
+FD:/UVM/Router/rtl/router_top.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/UVM/Router/rtl/router_top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/UVM/Router/rtl/router_top.v|
+!i113 1
+R6
+R7
