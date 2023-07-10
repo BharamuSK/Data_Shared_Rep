@@ -1,9 +1,0 @@
-Knowledge of AMBA (APB, AHB) Protocols
-Good Knowledge of System Verilog Assertion.
-Good knowledge of SV, and UVM.
-Good understanding of UVM TB flow.
-Basic Knowledge in Perl for the development of makefile.
-Endowed with a passion for winning as convinced through demonstrated excellence in the academic & extracurricular areas.
-Ability in handling multiple priorities, with a bias for action and a genuine interest in personal & professional development
-Excellent communication & interpersonal skills with the ability to grasp new concepts quickly and utilize the same in a productive
-manner.
